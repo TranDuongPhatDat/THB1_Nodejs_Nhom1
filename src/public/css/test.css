@@ -1,0 +1,11 @@
+.container{
+    height: 100vh;
+}
+
+.footer{
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
