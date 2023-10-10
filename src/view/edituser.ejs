@@ -1,0 +1,33 @@
+
+<form action="/edituser" method="post">
+  <div class="form-group">
+    <label>Username:</label>
+    <input type="text" class="form-control" name="name" value="<%= data.rows.username %>">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" name="pass" value="<%= data.rows.password %>">
+  </div>
+  <div class="form-group">
+    <label for="usr">fullname:</label>
+    <input type="text" class="form-control" name="fullname" value="<%= data.rows.fullname %>">
+  </div>
+  <div class="form-group">
+    <label for="pwd">address:</label>
+    <input type="text" class="form-control" name="address" value="<%= data.rows.address %>">
+  </div>
+  <div class="form-group">
+    <label for="usr">sex:</label>
+    <input type="text" class="form-control" name="sex" value="<%= data.rows.sex %>">
+  </div>
+  <div class="form-group">
+    <label for="pwd">email:</label>
+    <input type="text" class="form-control" name="email" value="<%= data.rows.email %>">
+  </div>
+  <div class="form-group">
+    <label for="pwd">groupid:</label>
+    <input type="text" class="form-control" name="groupid" value="<%= data.rows.groupid %>">
+  </div>
+  <input type="hidden" name="use">
+  <input type="submit" value="Cap nhat">
+</form>
